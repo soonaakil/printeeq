@@ -13,19 +13,19 @@ export default function Navbar() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <nav className="bg-white shadow-md w-full z-10">
+    <nav className="bg-blue-600 shadow-md w-full z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
       
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold ">PrinTeeQ</h1>
+            <h1 className="text-2xl font-bold text-white ">PrinTeeQ</h1>
           </div>
 
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="nav-link">Home</Link>
-            <Link to="/Shop" className="nav-link">Shop</Link>
-            <Link to="/MenSection" className="nav-link">Men</Link>
-            <Link to="/WomenSection" className="nav-link">Women</Link>
+            <Link to="/" className="nav-link text-white hover:text-gray-200">Home</Link>
+            <Link to="/Shop" className="nav-link text-white hover:text-gray-200">Shop</Link>
+            <Link to="/MenSection" className="nav-link text-white hover:text-gray-200">Men</Link>
+            <Link to="/WomenSection" className="nav-link text-white hover:text-gray-200">Women</Link>
 
          
             <div className="relative w-64">
